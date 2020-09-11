@@ -1,0 +1,55 @@
+nav {
+    background-color: white;
+    color: black;
+}
+
+.navbar {
+    padding-left: 0;
+}
+
+nav ul a {
+    color: black;
+}
+
+.z-depth-1,
+nav,
+.card-panel,
+.card,
+.toast,
+.btn,
+.btn-large,
+.btn-small,
+.btn-floating,
+.dropdown-content,
+.collapsible,
+.sidenav {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.maxsize {
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .brand-logo {
+        left: 0%;
+        margin-left: -2px;
+    }
+    .navbar {
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 286px) {
+    nav ul a {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 252px) {
+    nav ul a {
+        font-size: 0.5rem;
+    }
+}

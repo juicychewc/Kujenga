@@ -1,0 +1,96 @@
+.affimg {
+    width: 100%;
+    height: 300px;
+}
+
+.setHeightImage {
+    height: 470px;
+    margin-bottom: 1rem;
+}
+
+.positioning {
+    position: relative;
+}
+
+.buttonHolder {
+    position: absolute;
+    bottom: 10px;
+}
+
+@media screen and (max-width: 1311px) {
+    .imageCardTitle {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 1116px) {
+    .imageCardTitle {
+        font-size: 18px;
+    }
+    .imageCardDescription {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1081px) {
+    .imageCardTitle {
+        font-size: 15px;
+    }
+    .imageCardDescription {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .imageCardTitle {
+        font-size: 14px;
+    }
+    .imageCardDescription {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .imageCardTitle {
+        font-size: 20px;
+    }
+    .imageCardDescription {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 629px) {
+    .imageCardTitle {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .imageCardTitle {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .imageCardTitle {
+        font-size: 16px;
+    }
+    .imageCardDescription {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .imageCardTitle {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .imageCardTitle {
+        font-size: 12px;
+    }
+    .imageCardDescription {
+        font-size: 10px;
+    }
+}
